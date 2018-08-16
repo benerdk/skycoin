@@ -615,7 +615,7 @@ Example:
 
 ```sh
 curl -X POST http://127.0.0.1:6420/api/v1/wallet/newAddress \
- -H 'Content-Type: x-www-form-urlencoded' \
+ -H 'Content-Type: application/x-www-form-urlencoded' \
  -d 'id=2017_05_09_d554.wlt' \
  -d 'num=2' \
  -d 'password=$password'
